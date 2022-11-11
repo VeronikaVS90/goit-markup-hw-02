@@ -42,7 +42,7 @@ body {
 }
 
 /* Section */
-.section-title, .command {
+.section-title {
     color: var(--title-text-color);
 }
 
@@ -51,3 +51,7 @@ body {
     color: var(--title-text-color);
 }
 
+/* Command */
+.command-list .title {
+    color: var(--title-text-color);
+}
