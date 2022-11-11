@@ -4,9 +4,9 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --black-color: #000000;
-    --primary-background-color: #F5F5F5;
-    --hero-and-footer-background-color: #2F303A;
-    --secondary-background-color: #F5F4FA;
+    --primary-bg-color: #F5F5F5;
+    --hero-and-footer-bg-color: #2F303A;
+    --secondary-bg-color: #F5F4FA;
 }
 
 body {
@@ -36,6 +36,11 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Стилі для index.html */
 /* Hero */
 .hero-title {
     color: var(--white-color);
@@ -55,3 +60,16 @@ body {
 .command-list .title {
     color: var(--title-text-color);
 }
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--white-color);
+}
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Стилі для portfolio.html */
