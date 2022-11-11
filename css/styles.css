@@ -1,23 +1,25 @@
-body {
-    background-color: #F5F5F5;
-    color: #757575;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --primary-background-color: #F5F5F5;
+    --hero-and-footer-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
 }
 
-/* колір основного тексту #757575 */
-/* другорядний колір #212121 */
-/* білий #FFFFFF */
-/* акцент #2196F3 */
-/* колір частини лого #000000 */
-/* колір фону основний #F5F5F5 */
-/* колір фону другорядний #2F303A */
-/* колір фону другорядний #F5F4FA */
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
 
 .logo {
-    color: #000;
+    color: var(--black-color);
 }
 
 .lead {
-   color: #2196F3; 
+   color: var(--accent-color); 
 }
 
 .list {
@@ -26,26 +28,26 @@ body {
 
 /* Site nav */
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Hero */
 .hero-title {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /* Section */
 .section-title, .command {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 /* Features */
 .feature-list .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
