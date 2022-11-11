@@ -40,6 +40,16 @@ body {
     color: var(--accent-color);
 }
 
+/* Cont nav */
+.cont-nav .link {
+    color: var(--primary-text-color);
+}
+
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+    color: var(--accent-color);
+}
+
 /* Стилі для index.html */
 /* Hero */
 .hero-title {
