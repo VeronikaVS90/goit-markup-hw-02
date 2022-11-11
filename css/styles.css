@@ -101,6 +101,7 @@ body {
 .address-nav.list .link.secondary:focus {
     color: var(--accent-color);
 }
+
 /* Стилі для portfolio.html */
 /* Button в portfolio */
 .button.secondary {
