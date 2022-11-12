@@ -189,10 +189,19 @@ body {
 }
 
 /* Зображення */
-.image.list .link .title {
+.image.list .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.image.list .link .text {
+.image.list .text {
     color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
