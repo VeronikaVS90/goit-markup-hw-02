@@ -89,16 +89,16 @@ body {
     color: var(--white-color);
 }
 
-.address-nav.list .link.primary {
+.link.primary {
     color: var(--white-color);
 }
 
-.address-nav.list .link.secondary {
+.link.secondary {
     color: var(--secondary-text-color)
 }
 
-.address-nav.list .link.secondary:hover,
-.address-nav.list .link.secondary:focus {
+.link.secondary:hover,
+.link.secondary:focus {
     color: var(--accent-color);
 }
 
@@ -115,11 +115,11 @@ body {
     background-color: var(--accent-color);
 }
 
-.list {
-    list-style: none;
+/* Зображення */
+.image.list .link .title {
+    color: var(--title-text-color);
 }
 
-/* Зображення */
-.image.list .title {
-    color: var(--title-text-color);
+.image.list .link .text {
+    color: var(--primary-text-color);
 }
