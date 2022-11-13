@@ -28,7 +28,7 @@ body {
     text-decoration: none;
 }
 
-.logo.primary {
+.logo-primary {
    color: var(--black-color);
 }
 
@@ -89,6 +89,25 @@ body {
     background-color: var(--hero-and-footer-bg-color);
 }
 
+/* Button */
+.button-primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    color: var(--white-color);
+    background-color: var(--btn-active-bg-color);
+}
+
 /* Features */
 .visually-hidden {
 position: absolute;
@@ -103,7 +122,7 @@ clip-path: inset(50%);
 margin: -1px;
 }
 
-.features.title {
+.features-title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -113,7 +132,7 @@ margin: -1px;
     text-transform: uppercase;
 }
 
-.features.text {
+.features-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -145,11 +164,11 @@ margin: -1px;
     letter-spacing: 0.03em;
 }
 
-.command.item {
+.command-item {
     background-color: var(--white-color);
 }
 
-.name.title {
+.name-title {
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -158,35 +177,10 @@ margin: -1px;
     letter-spacing: 0.03em;
 }
 
-.command.text {
+.command-text {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    background-color: var(--white-color);
-}
-
-/* Button */
-.button {
-    color: var(--title-text-color);
-    background-color: var(--white-color);
-    cursor: pointer;
-    font-family: inherit;
-}
-
-.button.primary {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-}
-
-.button.primary:hover,
-.button.primary:focus {
-    color: var(--white-color);
-    background-color: var(--btn-active-bg-color);
 }
 
 /* Стилі для футеру */
@@ -194,11 +188,11 @@ margin: -1px;
     background-color: var(--hero-and-footer-bg-color);
 }
 
-.logo.secondary {
+.footer-logo {
     color: var(--white-color);
 }
 
-.link.primary {
+.link-primary {
     color: var(--white-color);
 
     font-size: 14px;
@@ -208,7 +202,7 @@ margin: -1px;
     font-style: normal;
 }
 
-.link.secondary {
+.link-secondary {
     color: var(--secondary-text-color);
 
     font-size: 14px;
@@ -218,31 +212,33 @@ margin: -1px;
     font-style: normal;
 }
 
-.link.secondary:hover,
-.link.secondary:focus {
+.link-secondary:hover,
+.link-secondary:focus {
     color: var(--accent-color);
 }
 
 /* Стилі для portfolio.html */
 /* Button в portfolio */
-.button.secondary {
+.button-secondary {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
+    cursor: pointer;
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
+    font-family: inherit;
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button-secondary:hover,
+.button-secondary:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
 /* Зображення */
-.image.title {
+.image-title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -251,7 +247,7 @@ margin: -1px;
     letter-spacing: 0.06em;
 }
 
-.image.text {
+.image-text {
     color: var(--primary-text-color);
 
     font-size: 16px;
